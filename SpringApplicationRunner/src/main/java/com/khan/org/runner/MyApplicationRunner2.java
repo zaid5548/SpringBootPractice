@@ -15,7 +15,7 @@ import com.khan.org.SpringApplicationRunnerApplication;
 @Order(0)
 public class MyApplicationRunner2 implements ApplicationRunner{
 
-	private static final Logger LOGGER=(Logger) LoggerFactory.getLogger(SpringApplicationRunnerApplication.class);
+	private static final Logger LOGGER=(Logger) LoggerFactory.getLogger(MyApplicationRunner2.class);
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
