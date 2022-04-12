@@ -29,11 +29,22 @@ public class SpringBootWithH2DatabaseApplication {
 		System.out.println("User Count : "+countUser);
 		//userRepository.deleteById(1);
 		//userRepository.deleteAll();
+		updateUserAgeById(userRepository);
 		Iterable<User> users= userRepository.findAll();
 		for (User user2 : users) {
 			System.out.println(user2);
 		}
 		System.out.println("End All CRUD Operations");
+	}
+
+	private static void updateUserAgeById(UserRepository userRepository) {
+		int id=2;
+		int newAge=34;
+		System.out.println("Finding Entiti by Id = "+id);
+		Optional<User> findById=userRepository.findById(id);
+		User user=findById.get();
+		user.setAge(newAge);
+		userRepository.save(user);
 	}
 
 	private static void createUsers(UserRepository userRepository) {
