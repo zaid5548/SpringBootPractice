@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.khan.org</groupId>
-	<artifactId>SpringBootRestfulAPIWithMySQLDB</artifactId>
+	<artifactId>SpringBootRestfulAPIWithMySQL</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBootRestfulAPIWithMySQLDB</name>
+	<name>SpringBootRestfulAPIWithMySQL</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

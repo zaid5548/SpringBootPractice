@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootRestfulApiWithMySqldbApplication {
+public class SpringBootRestfulApiWithMySqlApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootRestfulApiWithMySqldbApplication.class, args);
+		SpringApplication.run(SpringBootRestfulApiWithMySqlApplication.class, args);
 	}
 
 }
